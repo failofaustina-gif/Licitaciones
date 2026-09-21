@@ -10,6 +10,25 @@
 <body>
 <div class="app-shell">
 
+  <!-- ===================== Agenda macroeconómica ===================== -->
+  <section class="agenda-card">
+    <div class="agenda-card__header">
+      <h2 class="agenda-card__title">Agenda macro</h2>
+      <div class="agenda-controls">
+        <div class="agenda-mes-nav" id="agenda-mes-nav" hidden>
+          <button type="button" class="agenda-mes-nav__btn" id="agenda-mes-prev" aria-label="Mes anterior">‹</button>
+          <span class="agenda-mes-label" id="agenda-mes-label"></span>
+          <button type="button" class="agenda-mes-nav__btn" id="agenda-mes-next" aria-label="Mes siguiente">›</button>
+        </div>
+        <div class="agenda-view-toggle" role="group" aria-label="Vista de la agenda">
+          <button type="button" class="agenda-view-btn is-active" data-agenda-view="proximos" aria-pressed="true">Próximos</button>
+          <button type="button" class="agenda-view-btn" data-agenda-view="mes" aria-pressed="false">Mes</button>
+        </div>
+      </div>
+    </div>
+    <div id="agenda-body"></div>
+  </section>
+
   <header class="app-header">
     <h1>Liquidez diaria</h1>
     <p class="subtitle">Seguimiento de los factores que explican la variación diaria de la Base Monetaria y de las condiciones de liquidez del sistema financiero.</p>
@@ -134,6 +153,7 @@
 
 </div>
 
+<script src="agenda.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
