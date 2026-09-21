@@ -2,7 +2,9 @@
    Liquidez diaria — estilos
    Paleta validada con scripts/validate_palette.js (skill dataviz):
    categórica 5 series (blue/orange/aqua/yellow/magenta) PASS luz y oscuro;
-   trío blue/orange/aqua PASS all-pairs luz y oscuro.
+   trío blue/orange/aqua PASS all-pairs luz y oscuro; trío
+   blue/orange/aqua + violeta (TAMAR / overlay analítico ID198) PASS
+   all-pairs adyacentes luz y oscuro.
    ========================================================================= */
 
 :root {
@@ -23,8 +25,11 @@
   --series-otros: #eda100;
   --series-bm: #e87ba4;
   --series-cc: #2a78d6;
+  --series-cc-saldo: #1baf7a;
   --series-repo: #eb6834;
   --series-call: #1baf7a;
+  --series-tamar: #4a3aa7;
+  --series-op-corto-plazo: #4a3aa7;
 
   --status-warning: #fab219;
   --status-warning-bg: #fff6e0;
@@ -53,8 +58,11 @@
     --series-otros: #c98500;
     --series-bm: #d55181;
     --series-cc: #3987e5;
+    --series-cc-saldo: #199e70;
     --series-repo: #d95926;
     --series-call: #199e70;
+    --series-tamar: #9085e9;
+    --series-op-corto-plazo: #9085e9;
 
     --status-warning: #fab219;
     --status-warning-bg: #3a2f12;
@@ -79,8 +87,11 @@
   --series-otros: #c98500;
   --series-bm: #d55181;
   --series-cc: #3987e5;
+  --series-cc-saldo: #199e70;
   --series-repo: #d95926;
   --series-call: #199e70;
+  --series-tamar: #9085e9;
+  --series-op-corto-plazo: #9085e9;
 
   --status-warning: #fab219;
   --status-warning-bg: #3a2f12;
@@ -242,6 +253,98 @@ body {
   margin-left: 6px;
 }
 
+.panel-subhead-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 18px 0 6px;
+}
+
+.panel-subhead-row .panel-subhead {
+  margin: 0;
+}
+
+/* ---- Selector Saldo (nivel) / Variación (flujo) ---- */
+
+.cc-view-toggle {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px;
+}
+
+.cc-view-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 550;
+  padding: 5px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.cc-view-btn.is-active {
+  background: var(--text-primary);
+  color: var(--surface-1);
+}
+
+.cc-view-btn:hover:not(.is-active) {
+  background: var(--gridline);
+}
+
+/* ---- Fechas de actualización del panel de tasas (REPO | Call | TAMAR) ---- */
+
+.rates-updated {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0 0 6px;
+}
+
+.rates-updated__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* ---- Interruptor discreto de análisis: Operaciones de corto plazo BCRA ---- */
+
+.analysis-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 0 2px;
+  font-size: 12.5px;
+  color: var(--text-secondary);
+}
+
+.analysis-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.analysis-toggle input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.analysis-toggle__tag {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
 /* ---- Leyenda ---- */
 
 .legend-row {
@@ -276,6 +379,17 @@ body {
   flex: none;
 }
 
+/* Swatch punteado: usado para series distinguidas conceptualmente de las
+   demás (TAMAR — fondeo mayorista ~30 días; overlay analítico Δ ID198). */
+.legend-swatch--dashed {
+  width: 14px;
+  height: 0;
+  border-top: 2px dashed;
+  border-radius: 0;
+  background: none !important;
+  margin-top: 5px;
+}
+
 /* ---- Gráficos SVG ---- */
 
 .chart-wrap { position: relative; }
@@ -293,7 +407,10 @@ body {
 
 .bar-seg { }
 .line-series { fill: none; stroke-width: 2; }
+.line-series--dashed { stroke-dasharray: 5 4; }
+.line-series--analytic { stroke-width: 1.75; opacity: 0.92; }
 .line-dot { }
+.level-area { stroke: none; fill-opacity: 0.12; }
 
 .crosshair { stroke: var(--baseline); stroke-width: 1; shape-rendering: crispEdges; pointer-events: none; }
 .event-marker { stroke: var(--text-muted); stroke-width: 1; stroke-dasharray: 2 2; opacity: 0.6; }
@@ -361,11 +478,6 @@ body {
   background: var(--status-warning-bg);
   color: var(--text-primary);
   border-color: color-mix(in srgb, var(--status-warning) 40%, transparent);
-}
-
-.reconciliation-badge--ok {
-  background: var(--status-good-bg);
-  color: var(--text-secondary);
 }
 
 .reconciliation-note {

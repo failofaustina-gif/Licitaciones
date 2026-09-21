@@ -18,10 +18,11 @@
 
   <div class="controls-row">
     <div class="period-selector" role="group" aria-label="Seleccionar período">
-      <button type="button" class="period-btn" data-period="5D">5D</button>
       <button type="button" class="period-btn" data-period="1M">1M</button>
       <button type="button" class="period-btn is-active" data-period="3M" aria-pressed="true">3M</button>
+      <button type="button" class="period-btn" data-period="6M">6M</button>
       <button type="button" class="period-btn" data-period="1A">1A</button>
+      <button type="button" class="period-btn" data-period="Máx.">Máx.</button>
     </div>
   </div>
 
@@ -40,6 +41,15 @@
 
     <div class="chart-wrap" id="chart1"></div>
     <div class="legend-row" id="legend1"></div>
+
+    <div class="analysis-toggle-row">
+      <label class="analysis-toggle" for="toggle-op-corto-plazo">
+        <input type="checkbox" id="toggle-op-corto-plazo" />
+        <span class="legend-swatch legend-swatch--dashed" style="border-top-color:var(--series-op-corto-plazo)"></span>
+        Operaciones de corto plazo BCRA <span class="analysis-toggle__tag">(analítico, no oficial)</span>
+      </label>
+      <span class="info-icon" tabindex="0" title="Superpone, solo si se activa, la variación diaria de la posición neta de operaciones de corto plazo del BCRA (ID 198, saldo) junto a &quot;Otros factores&quot;, para estudiar su asociación. No se afirma ni se etiqueta esta serie como compras/ventas de títulos, mercado secundario ni operaciones simultáneas.">?</span>
+    </div>
   </section>
 
   <!-- ===================== Gráfico 2: Liquidez bancaria y tasas ===================== -->
@@ -51,19 +61,24 @@
       Dos paneles con la misma línea de tiempo y unidades distintas: cuentas corrientes bancarias en millones de ARS, tasas en % TNA. No se combinan en un mismo eje.
     </p>
 
-    <p class="panel-subhead">
-      Δ cuentas corrientes bancarias en el BCRA
-      <span class="panel-unit">Millones de ARS</span>
-      <span class="chart-card__updated" id="updated-cc" style="float:right;">Actualizado al —</span>
-    </p>
+    <div class="panel-subhead-row">
+      <p class="panel-subhead">
+        <span id="cc-title-label">Variación diaria de cuentas corrientes bancarias en el BCRA</span>
+        <span class="panel-unit" id="cc-unit-label">Millones de ARS — flujo diario (variación)</span>
+      </p>
+      <div class="cc-view-toggle" role="group" aria-label="Vista de cuentas corrientes bancarias">
+        <button type="button" class="cc-view-btn is-active" data-ccview="flujo" aria-pressed="true">Variación (flujo)</button>
+        <button type="button" class="cc-view-btn" data-ccview="saldo" aria-pressed="false">Saldo (nivel)</button>
+      </div>
+      <span class="chart-card__updated" id="updated-cc">Actualizado al —</span>
+    </div>
     <div class="chart-wrap" id="chart2-bars"></div>
 
     <p class="panel-subhead">
       Tasas de corto plazo
       <span class="panel-unit">% TNA</span>
-      <span class="chart-card__updated" id="updated-repo" style="float:right;">REPO: —</span>
-      <span class="chart-card__updated" id="updated-call" style="display:none;"></span>
     </p>
+    <div class="rates-updated" id="updated-rates"></div>
     <div class="chart-wrap" id="chart2-rates"></div>
     <div class="legend-row" id="legend2"></div>
   </section>
@@ -82,6 +97,14 @@
       Fuente: Banco Central de la República Argentina (BCRA) — API oficial de estadísticas monetarias v4.0
       (<code>api.bcra.gob.ar/estadisticas/v4.0/monetarias</code>). Los IDs marcados "No" en la columna "En frontend" se
       mantienen en el backend para reconstruir la identidad contable histórica y no se grafican por ahora.
+    </p>
+    <p class="methodology-fuente">
+      ID 198 se conserva en el backend para el control analítico "Δ posición de operaciones de corto plazo del BCRA"
+      (Δ ID198 = ID198(t) − ID198(t−1)), disponible de forma opcional y desactivada por defecto mediante el interruptor
+      "Operaciones de corto plazo BCRA" sobre el primer gráfico. No se afirma que esta serie corresponda a compras/ventas
+      de títulos, mercado secundario ni operaciones simultáneas. ID 70 se muestra como nivel (saldo) en la vista
+      "Saldo (nivel)" del panel de cuentas corrientes; ID 63 se muestra como flujo diario en la vista "Variación (flujo)".
+      Ambas vistas son alternativas del mismo panel y nunca se combinan ni se tratan como equivalentes.
     </p>
     <div class="methodology-table-wrap">
       <table class="methodology-table">
