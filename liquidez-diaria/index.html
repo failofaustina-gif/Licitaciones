@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Liquidez diaria — Monitor Monetario Argentina</title>
+<meta name="description" content="Seguimiento de los factores que explican la variación diaria de la Base Monetaria y de las condiciones de liquidez del sistema financiero, con datos oficiales del BCRA." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app-shell">
+
+  <header class="app-header">
+    <h1>Liquidez diaria</h1>
+    <p class="subtitle">Seguimiento de los factores que explican la variación diaria de la Base Monetaria y de las condiciones de liquidez del sistema financiero.</p>
+    <p class="load-status" id="load-status">Cargando…</p>
+  </header>
+
+  <div class="controls-row">
+    <div class="period-selector" role="group" aria-label="Seleccionar período">
+      <button type="button" class="period-btn" data-period="5D">5D</button>
+      <button type="button" class="period-btn" data-period="1M">1M</button>
+      <button type="button" class="period-btn is-active" data-period="3M" aria-pressed="true">3M</button>
+      <button type="button" class="period-btn" data-period="1A">1A</button>
+    </div>
+  </div>
+
+  <!-- ===================== Gráfico 1: Factores de la Base Monetaria ===================== -->
+  <section class="chart-card">
+    <div class="chart-card__header">
+      <h2 class="chart-card__title">Factores de explicación de la Base Monetaria</h2>
+      <span class="chart-card__updated" id="updated-chart1">Actualizado al —</span>
+    </div>
+    <p class="chart-card__note">
+      Variación diaria de la Base Monetaria (línea) y sus factores de explicación (barras). Días hábiles.
+      <span class="info-icon" tabindex="0" title="Cada barra muestra el efecto monetario oficial informado por el BCRA para ese factor y ese día. La suma de todos los factores oficiales (incluidos los que no se muestran individualmente) se concilia contra la variación de la Base Monetaria — ver aviso debajo del gráfico.">?</span>
+    </p>
+
+    <div id="reconciliation"></div>
+
+    <div class="chart-wrap" id="chart1"></div>
+    <div class="legend-row" id="legend1"></div>
+  </section>
+
+  <!-- ===================== Gráfico 2: Liquidez bancaria y tasas ===================== -->
+  <section class="chart-card">
+    <div class="chart-card__header">
+      <h2 class="chart-card__title">Liquidez bancaria y tasas de corto plazo</h2>
+    </div>
+    <p class="chart-card__note">
+      Dos paneles con la misma línea de tiempo y unidades distintas: cuentas corrientes bancarias en millones de ARS, tasas en % TNA. No se combinan en un mismo eje.
+    </p>
+
+    <p class="panel-subhead">
+      Δ cuentas corrientes bancarias en el BCRA
+      <span class="panel-unit">Millones de ARS</span>
+      <span class="chart-card__updated" id="updated-cc" style="float:right;">Actualizado al —</span>
+    </p>
+    <div class="chart-wrap" id="chart2-bars"></div>
+
+    <p class="panel-subhead">
+      Tasas de corto plazo
+      <span class="panel-unit">% TNA</span>
+      <span class="chart-card__updated" id="updated-repo" style="float:right;">REPO: —</span>
+      <span class="chart-card__updated" id="updated-call" style="display:none;"></span>
+    </p>
+    <div class="chart-wrap" id="chart2-rates"></div>
+    <div class="legend-row" id="legend2"></div>
+  </section>
+
+  <!-- ===================== Otros factores: aclaración ===================== -->
+  <p class="chart-card__note" style="margin: -14px 0 24px;">
+    <strong>Sobre "Otros factores" (ID 59):</strong> categoría oficial del BCRA que incluye factores no comprendidos en los restantes rubros.
+    Su composición no puede identificarse completamente con la información diaria disponible. No se infiere automáticamente que corresponda
+    a compras/ventas de bonos, operaciones simultáneas u otra operatoria específica.
+  </p>
+
+  <!-- ===================== Fuente y metodología ===================== -->
+  <details class="methodology-details">
+    <summary>Fuente y metodología</summary>
+    <p class="methodology-fuente">
+      Fuente: Banco Central de la República Argentina (BCRA) — API oficial de estadísticas monetarias v4.0
+      (<code>api.bcra.gob.ar/estadisticas/v4.0/monetarias</code>). Los IDs marcados "No" en la columna "En frontend" se
+      mantienen en el backend para reconstruir la identidad contable histórica y no se grafican por ahora.
+    </p>
+    <div class="methodology-table-wrap">
+      <table class="methodology-table">
+        <thead>
+          <tr>
+            <th>ID BCRA</th>
+            <th>Nombre oficial</th>
+            <th>Nombre de display</th>
+            <th>Tipo de serie</th>
+            <th>Periodicidad</th>
+            <th>Unidad</th>
+            <th>En frontend</th>
+            <th>Fecha de referencia (último dato)</th>
+          </tr>
+        </thead>
+        <tbody id="methodology-tbody"></tbody>
+      </table>
+    </div>
+  </details>
+
+  <footer class="app-footer">
+    <p>Módulo "Liquidez diaria" — Monitor Monetario Argentina. Datos: Banco Central de la República Argentina.
+    Esta pantalla no atribuye causalidad a coincidencias temporales entre factores; la capa de eventos (licitaciones,
+    liquidaciones, vencimientos del Tesoro, cambios de política del BCRA, eventos cambiarios) está preparada en el código
+    pero sin datos cargados todavía.</p>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
