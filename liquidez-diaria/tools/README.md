@@ -20,7 +20,7 @@ organismo publica en fin de semana) antes de cargarla. Si una fecha no
 aparece explícitamente en la fuente oficial, **no se agrega el evento** — no
 se completa por continuidad de patrón ni se estima.
 
-## Estado por categoría (carga inicial, 21/09/2026)
+## Estado por categoría (última actualización: 22/09/2026)
 
 - **BCRA** (REM, Informe Monetario Mensual, IPOM, Informe de Evolución del
   Mercado de Cambios y Balance Cambiario): cargado completo para 2026 desde
@@ -31,17 +31,24 @@ se completa por continuidad de patrón ni se estima.
 - **INDEC** (IPC, EMAE, PIB trimestral / Informe de avance del nivel de
   actividad): cargado completo para 2026 desde los calendarios semestrales
   en PDF de `indec.gob.ar`.
-- **TESORO** (llamado a licitación, licitación, liquidación): **sin cargar**.
-  El PDF del cronograma anual
-  (`argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf`) está
-  bloqueado por `robots.txt` para las herramientas de fetch disponibles en
-  esta sesión de Claude — no se pudo leer su contenido de forma confiable, y
-  no se va a adivinar. Opciones para cargarlo:
-  1. Adjuntar el PDF (o pegar su contenido) en la conversación con Claude
-     para que lo extraiga y valide con el mismo método (chequeo de día de
-     semana + revisión fila por fila) usado para BCRA/INDEC.
-  2. Cargar los eventos a mano siguiendo el schema de `events.json`, citando
-     siempre `source_url` = la URL del cronograma oficial.
+- **TESORO** (llamado a licitación, licitación, liquidación): cargado
+  completo para 2026 (23 llamados, 23 licitaciones, 23 liquidaciones) desde
+  el `Cronograma de Licitaciones 2026` de la Secretaría de Finanzas
+  (`argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf`). El fetch
+  en vivo de ese PDF sigue bloqueado por `robots.txt` para las herramientas
+  de esta sesión; el usuario adjuntó el archivo directamente en la
+  conversación. El PDF es una grilla de calendario coloreada (no una tabla
+  de texto), así que las fechas no se leyeron "a ojo": el PDF se rasterizó a
+  300dpi y cada celda de día se clasificó programáticamente contra los 4
+  colores exactos de la leyenda (Llamado=celeste, Licitación=verde,
+  Liquidación=naranja, Feriados/Otros=azul marino) muestreando píxeles con
+  Pillow. Las 69 celdas coloreadas coincidieron exactamente (distancia de
+  color 0) con uno de los 4 colores — ninguna quedó ambigua. Se validó
+  además que las 16 celdas "Feriados/Otros" detectadas coinciden 1 a 1 con
+  la lista de feriados en texto al pie de cada mini-calendario, y que las 23
+  cadencias Llamado→Licitación→Liquidación respetan el patrón T+2 días
+  hábiles (ajustado por feriados) que usa el Tesoro. No se cargaron
+  vencimientos de deuda ni otras categorías del Tesoro no solicitadas.
 
 ## Schema de cada evento
 

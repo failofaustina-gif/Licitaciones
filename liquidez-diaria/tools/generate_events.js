@@ -16,16 +16,17 @@
    de diciembre 2026, que no aparece en el calendario oficial del BCRA a la
    fecha de esta carga), directamente no se generó el evento.
 
-   TESORO queda sin eventos en esta primera carga: el PDF del cronograma
-   de licitaciones (argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf)
-   está bloqueado por robots.txt para las herramientas de fetch disponibles
-   en esta sesión. No se cargó ningún dato de Tesoro para evitar adivinar.
-   Ver liquidez-diaria/tools/README.md.
+   TESORO: el PDF del cronograma de licitaciones está bloqueado por
+   robots.txt para las herramientas de fetch disponibles en esta sesión de
+   Claude (ver liquidez-diaria/tools/README.md); el usuario lo adjuntó
+   directamente en la conversación y sus fechas se cargaron extrayendo el
+   color de cada celda del calendario de forma programática (ver el
+   comentario junto a TESORO_SOURCE más abajo para el detalle del método).
 
    Cómo correr: node generate_events.js > ../events.json
    ========================================================================= */
 
-const GENERATED_AT = '2026-09-21T23:15:56Z';
+const GENERATED_AT = '2026-09-22T01:05:00Z';
 
 const BCRA_SOURCE = {
   source_name: 'BCRA — Calendario de informes 2026',
@@ -40,6 +41,11 @@ const INDEC_SOURCE_H1 = {
 const INDEC_SOURCE_H2 = {
   source_name: 'INDEC — Calendario de difusión de indicadores, 2do semestre 2026',
   source_url: 'https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf',
+};
+
+const TESORO_SOURCE = {
+  source_name: 'Secretaría de Finanzas — Cronograma de Licitaciones 2026',
+  source_url: 'https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf',
 };
 
 function ev({ id, event_type, title, date, time, institution, category, status, source, source_reference }) {
@@ -207,6 +213,71 @@ for (const [date, source, periodo] of PIB_DATES) {
     status: 'CONFIRMED',
     source,
     source_reference: `Fila "Informe de avance del nivel de actividad. ${periodo}"`,
+  }));
+}
+
+// ---------------------------------------------------------------------
+// TESORO — Cronograma de Licitaciones 2026 (Llamado / Licitación / Liquidación)
+//
+// El PDF oficial es una grilla de calendario coloreada (no una tabla de
+// texto): cada día resaltado indica el tipo de evento según la leyenda
+// (Llamado=celeste, Licitación=verde, Liquidación=naranja, Feriados/Otros=
+// azul marino). El fetch en vivo del PDF está bloqueado por robots.txt
+// (ver tools/README.md); el usuario adjuntó el archivo en la conversación
+// con Claude y las fechas de abajo se extrajeron rasterizando el PDF
+// (pdftoppm, 300dpi) y clasificando programáticamente el color de fondo de
+// cada celda de día contra los 4 colores exactos de la leyenda (muestreo de
+// píxeles con Pillow, sin interpretación visual). Las 69 celdas coloreadas
+// del calendario (23 Llamado + 23 Licitación + 23 Liquidación) coincidieron
+// exactamente (distancia de color 0) con uno de los 4 colores de leyenda —
+// ninguna quedó ambigua. Se validó además que las 16 celdas "Feriados/Otros"
+// detectadas en la grilla coinciden 1 a 1 con la lista de feriados en texto
+// al pie de cada mini-calendario mensual, y que las 23 cadencias
+// Llamado→Licitación→Liquidación respetan el patrón T+2 días hábiles
+// (ajustado por feriados) usado por el Tesoro. No se cargó ningún evento de
+// vencimientos de deuda, resultado fiscal ni otra categoría no solicitada.
+// ---------------------------------------------------------------------
+const LLAMADO_DATES = ['2026-01-12', '2026-01-26', '2026-02-09', '2026-02-23', '2026-03-10', '2026-03-25', '2026-04-13', '2026-04-24', '2026-05-11', '2026-05-22', '2026-06-08', '2026-06-24', '2026-07-13', '2026-07-27', '2026-08-10', '2026-08-25', '2026-09-09', '2026-09-24', '2026-10-09', '2026-10-26', '2026-11-09', '2026-11-24', '2026-12-09'];
+const LICITACION_DATES = ['2026-01-14', '2026-01-28', '2026-02-11', '2026-02-25', '2026-03-12', '2026-03-27', '2026-04-15', '2026-04-28', '2026-05-13', '2026-05-27', '2026-06-10', '2026-06-26', '2026-07-15', '2026-07-29', '2026-08-12', '2026-08-27', '2026-09-11', '2026-09-28', '2026-10-14', '2026-10-28', '2026-11-11', '2026-11-26', '2026-12-11'];
+const LIQUIDACION_DATES = ['2026-01-16', '2026-01-30', '2026-02-13', '2026-02-27', '2026-03-16', '2026-03-31', '2026-04-17', '2026-04-30', '2026-05-15', '2026-05-29', '2026-06-12', '2026-06-30', '2026-07-17', '2026-07-31', '2026-08-14', '2026-08-31', '2026-09-15', '2026-09-30', '2026-10-16', '2026-10-30', '2026-11-13', '2026-11-30', '2026-12-15'];
+
+for (const date of LLAMADO_DATES) {
+  events.push(ev({
+    id: `tesoro-auction_announcement-${date}`,
+    event_type: 'AUCTION_ANNOUNCEMENT',
+    title: 'Llamado a licitación de Títulos del Tesoro',
+    date,
+    institution: 'Secretaría de Finanzas',
+    category: 'TESORO',
+    status: 'CONFIRMED',
+    source: TESORO_SOURCE,
+    source_reference: 'Celda "Llamado" (celeste), Cronograma de Licitaciones 2026',
+  }));
+}
+for (const date of LICITACION_DATES) {
+  events.push(ev({
+    id: `tesoro-auction-${date}`,
+    event_type: 'AUCTION',
+    title: 'Licitación de Títulos del Tesoro',
+    date,
+    institution: 'Secretaría de Finanzas',
+    category: 'TESORO',
+    status: 'CONFIRMED',
+    source: TESORO_SOURCE,
+    source_reference: 'Celda "Licitación" (verde), Cronograma de Licitaciones 2026',
+  }));
+}
+for (const date of LIQUIDACION_DATES) {
+  events.push(ev({
+    id: `tesoro-settlement-${date}`,
+    event_type: 'SETTLEMENT',
+    title: 'Liquidación de licitación de Títulos del Tesoro',
+    date,
+    institution: 'Secretaría de Finanzas',
+    category: 'TESORO',
+    status: 'CONFIRMED',
+    source: TESORO_SOURCE,
+    source_reference: 'Celda "Liquidación" (naranja), Cronograma de Licitaciones 2026',
   }));
 }
 

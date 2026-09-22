@@ -11,8 +11,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-01-08",
@@ -26,8 +26,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-01-12",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-01-12",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-01-13",
@@ -41,8 +56,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-01-14",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-01-14",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-01-16",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-01-16",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-01-21",
@@ -56,8 +101,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-01-26",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-01-26",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-01-28",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-01-28",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-01-30",
@@ -71,8 +146,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-01-30",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-01-30",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-02-05",
@@ -86,8 +176,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-02-06",
@@ -101,8 +191,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-02-09",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-02-09",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-02-10",
@@ -116,8 +221,53 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-02-11",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-02-11",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-02-13",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-02-13",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-02-23",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-02-23",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-02-24",
@@ -131,8 +281,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-02-25",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-02-25",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-02-27",
@@ -146,8 +311,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-02-27",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-02-27",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-03-05",
@@ -161,8 +341,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-03-06",
@@ -176,8 +356,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-03-10",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-03-10",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-03-12",
@@ -191,8 +386,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-03-12",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-03-12",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-03-16",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-03-16",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-gdp-2026-03-20",
@@ -206,8 +431,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Informe de avance del nivel de actividad. Cuarto trimestre de 2025\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-03-25",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-03-25",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-03-26",
@@ -221,8 +461,8 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-03-27",
@@ -236,8 +476,38 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-03-27",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-03-27",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-03-31",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-03-31",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-04-08",
@@ -251,8 +521,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-04-09",
@@ -266,8 +536,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-04-13",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-04-13",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-04-14",
@@ -281,8 +566,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-04-15",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-04-15",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-04-17",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-04-17",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-04-22",
@@ -296,8 +611,8 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-04-24",
@@ -311,8 +626,53 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-04-24",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-04-24",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-04-28",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-04-28",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-04-30",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-04-30",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-05-07",
@@ -326,8 +686,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-05-08",
@@ -341,8 +701,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-05-11",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-05-11",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-ipom-2026-05-13",
@@ -356,8 +731,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Política Monetaria (IPOM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-05-13",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-05-13",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-05-14",
@@ -371,8 +761,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-05-15",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-05-15",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-05-21",
@@ -386,8 +791,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-05-22",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-05-22",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-05-27",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-05-27",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-05-29",
@@ -401,8 +836,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-05-29",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-05-29",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-06-04",
@@ -416,8 +866,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-06-05",
@@ -431,8 +881,38 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-06-08",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-06-08",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-06-10",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-06-10",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-06-11",
@@ -446,8 +926,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-06-12",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-06-12",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-gdp-2026-06-23",
@@ -461,8 +956,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Informe de avance del nivel de actividad. Primer trimestre de 2026\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-06-24",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-06-24",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-06-26",
@@ -476,8 +986,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-06-26",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-06-26",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-06-29",
@@ -491,8 +1016,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 1er semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_1sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-06-30",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-06-30",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-07-06",
@@ -506,8 +1046,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-07-07",
@@ -521,8 +1061,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-07-13",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-07-13",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-07-14",
@@ -536,8 +1091,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-07-15",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-07-15",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-07-17",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-07-17",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-07-22",
@@ -551,8 +1136,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-07-27",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-07-27",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-07-29",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-07-29",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-07-31",
@@ -566,8 +1181,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-07-31",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-07-31",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-ipom-2026-08-06",
@@ -581,8 +1211,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Política Monetaria (IPOM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-08-06",
@@ -596,8 +1226,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-08-07",
@@ -611,8 +1241,38 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-08-10",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-08-10",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-08-12",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-08-12",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-08-13",
@@ -626,8 +1286,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-08-14",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-08-14",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-08-20",
@@ -641,8 +1316,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-08-25",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-08-25",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-08-27",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-08-27",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-08-28",
@@ -656,8 +1361,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-08-31",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-08-31",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-09-04",
@@ -671,8 +1391,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-09-07",
@@ -686,8 +1406,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-09-09",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-09-09",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-09-10",
@@ -701,8 +1436,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-09-11",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-09-11",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-09-15",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-09-15",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-gdp-2026-09-17",
@@ -716,8 +1481,8 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Informe de avance del nivel de actividad. Segundo trimestre de 2026\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-09-24",
@@ -731,8 +1496,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-09-24",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-09-24",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-09-25",
@@ -746,8 +1526,38 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-09-28",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-09-28",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-09-30",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-09-30",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-10-06",
@@ -761,8 +1571,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-10-07",
@@ -776,8 +1586,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-10-09",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-10-09",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-10-13",
@@ -791,8 +1616,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-10-14",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-10-14",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-10-16",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-10-16",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-10-21",
@@ -806,8 +1661,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-10-26",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-10-26",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-10-28",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-10-28",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-10-30",
@@ -821,8 +1706,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-10-30",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-10-30",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-rem-2026-11-05",
@@ -836,8 +1736,8 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Relevamiento de Expectativas de Mercado (REM)\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-11-09",
@@ -851,8 +1751,38 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-11-09",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-11-09",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-11-11",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-11-11",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-11-12",
@@ -866,8 +1796,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-11-13",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-11-13",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-11-24",
@@ -881,8 +1826,38 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-11-24",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-11-24",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-11-26",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-11-26",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-11-27",
@@ -896,8 +1871,23 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-11-30",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-11-30",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-monetary_report-2026-12-09",
@@ -911,8 +1901,38 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe Monetario Mensual\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction_announcement-2026-12-09",
+    "event_type": "AUCTION_ANNOUNCEMENT",
+    "title": "Llamado a licitación de Títulos del Tesoro",
+    "date": "2026-12-09",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Llamado\" (celeste), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-auction-2026-12-11",
+    "event_type": "AUCTION",
+    "title": "Licitación de Títulos del Tesoro",
+    "date": "2026-12-11",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Licitación\" (verde), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-cpi-2026-12-15",
@@ -926,8 +1946,23 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Índice de precios al consumidor (IPC). Cobertura nacional.\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
+  },
+  {
+    "id": "tesoro-settlement-2026-12-15",
+    "event_type": "SETTLEMENT",
+    "title": "Liquidación de licitación de Títulos del Tesoro",
+    "date": "2026-12-15",
+    "time": null,
+    "institution": "Secretaría de Finanzas",
+    "category": "TESORO",
+    "status": "CONFIRMED",
+    "source_name": "Secretaría de Finanzas — Cronograma de Licitaciones 2026",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/calendario_prensa_0.pdf",
+    "source_reference": "Celda \"Liquidación\" (naranja), Cronograma de Licitaciones 2026",
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-gdp-2026-12-16",
@@ -941,8 +1976,8 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Informe de avance del nivel de actividad. Tercer trimestre de 2026\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "indec-emae-2026-12-21",
@@ -956,8 +1991,8 @@
     "source_name": "INDEC — Calendario de difusión de indicadores, 2do semestre 2026",
     "source_url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
     "source_reference": "Fila \"Estimador mensual de actividad económica (EMAE)\"",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   },
   {
     "id": "bcra-fx_balance-2026-12-31",
@@ -971,7 +2006,7 @@
     "source_name": "BCRA — Calendario de informes 2026",
     "source_url": "https://www.bcra.gob.ar/calendario-de-informes/",
     "source_reference": "Fila \"Informe de Evolución del Mercado de Cambios y Balance Cambiario\", calendario 2026",
-    "created_at": "2026-09-21T23:15:56Z",
-    "updated_at": "2026-09-21T23:15:56Z"
+    "created_at": "2026-09-22T01:05:00Z",
+    "updated_at": "2026-09-22T01:05:00Z"
   }
 ]
